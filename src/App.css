@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.components {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: 1px solid black;
+    margin: auto;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.component1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.component1 > button {
+    margin: 2px;
+}
+
+.component2 {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(230, 10, 10);
+    margin: 5px;
+}

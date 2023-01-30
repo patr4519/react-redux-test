@@ -1,11 +1,11 @@
 import { combineReducers } from 'redux';
 
-import reducer1 from './features/reducerSlice1';
-import reducer2 from './features/reducerSlice2';
+import reducerSlice1 from './features/reducerSlice1';
+import reducerSlice2 from './features/reducerSlice2';
 
 const rootReducer = combineReducers({
-    red1: reducer1,
-    red2: reducer2
+    red1: reducerSlice1,
+    red2: reducerSlice2
 })
 
 export default rootReducer;
